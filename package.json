@@ -1,0 +1,19 @@
+{
+  "name": "hoisted-base",
+  "description": "Example Repo",
+  "engines": {
+    "node": "^14"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/test"
+  ],
+  "scripts": {
+    "build": "wsrun -c build"
+  },
+  "devDependencies": {
+    "rollup": "2.56.3",
+    "wsrun": "^5.2.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hoisted-subpackage",
+  "version": "0.1.0",
+  "description": "test",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
